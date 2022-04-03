@@ -1,0 +1,85 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginWrapper {
+  width: 70%;
+  height: 70%;
+  display: flex;
+}
+
+.loginLeft,
+.loginRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loginLogo {
+  font-size: 50px;
+  font-weight: 800;
+  color: rgb(158, 37, 158);
+  margin-bottom: 10px;
+}
+
+.loginDesc {
+  font-size: 20px;
+}
+
+.loginBox {
+  height: 330px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.loginInput {
+  border-radius: 10px;
+  height: 50px;
+  border: 1px solid grey;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.loginInput:focus {
+  outline: none;
+}
+
+.forgotPwd {
+  text-align: center;
+  color: rgb(158, 37, 158);
+}
+
+.loginButton, .loginregisterButton{
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.loginButton{
+  background-color: rgb(158, 37, 158);
+}
+
+.loginButton:disabled{
+  cursor:not-allowed;
+}
+
+.loginregisterButton{
+  background-color: #42b72a;
+  width:60%;
+  align-self: center;
+}
+
